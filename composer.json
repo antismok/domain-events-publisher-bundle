@@ -1,0 +1,21 @@
+{
+    "name": "antismok/domain-events-publisher-bundle",
+    "description": "symfony bundle for domain event publisher",
+    "type": "bundle",
+    "require": {
+        "antismok/domain-events-publisher": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Saritskiy",
+            "email": "saritskiy.r@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Antismok\\DomainEventPublisherBundle\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

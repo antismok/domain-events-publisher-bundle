@@ -1,0 +1,6 @@
+services:
+    Antismok\DomainEventPublisher\DomainEventPublisher:
+        class: Antismok\DomainEventPublisher\DomainEventPublisher
+
+    domain_event_dispatcher:
+        alias: Antismok\DomainEventPublisher\DomainEventPublisher
