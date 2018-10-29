@@ -4,3 +4,4 @@ services:
 
     domain_event_dispatcher:
         alias: Antismok\DomainEventPublisher\DomainEventPublisher
+        public: true

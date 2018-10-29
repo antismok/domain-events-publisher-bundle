@@ -23,4 +23,9 @@ class DomainEventPublisherBundle extends Bundle
 
         $container->addCompilerPass(new DomainListenersPass());
     }
+
+    public function boot()
+    {
+        $this->container->get('domain_event_dispatcher');
+    }
 }
